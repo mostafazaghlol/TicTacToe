@@ -105,6 +105,4 @@ class MainActivity : AppCompatActivity() {
         checkGameStatus()
     }
 
-    data class Game(var gameBoard: Array<CharArray>, var winner: Char)
-    data class Student(var name: String, var classRoomNo: Int, var studentId: Int)
 }
